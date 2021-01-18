@@ -24,15 +24,25 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+textarea{
+  padding: 0.5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.analize{
+  margin-top: 1em;
+  padding: 0.5em;
+  background-color: #ff5079;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-stretch: 5px;
 }
+
+.analize:focus, .analize:hover{
+  outline: none;
+  background-color: #ff3765;
+}
+
